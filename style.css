@@ -17,7 +17,7 @@
   position: relative;
   width: 70%;
   border: 1px solid black;
-  background-image: url("./img/1.jpg");
+  /* background-image: url("./img/1.jpg"); */
   background-size: cover;
 }
 .img__arrow {

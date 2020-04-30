@@ -7,6 +7,5 @@ class Data {
       { img: "/img/3.jpg" },
       { img: "/img/4.jpg" },
     ];
-    this.counter = 0;
   }
 }

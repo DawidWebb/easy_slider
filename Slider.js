@@ -8,9 +8,9 @@ class Slider extends Data {
   }
   select(e) {
     if (e.target === this.arrows[1]) {
-      console.log("left");
-    } else if (e.target === this.arrows[0]) {
       console.log("right");
+    } else if (e.target === this.arrows[0]) {
+      console.log("left");
     }
   }
 }
