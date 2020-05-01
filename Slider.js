@@ -6,6 +6,7 @@ class Slider extends Data {
       arrow.addEventListener("click", this.select.bind(this))
     );
   }
+
   select(e) {
     if (e.target === this.arrows[1]) {
       if (this.counter < this.pictures.length - 1) {
@@ -28,7 +29,14 @@ class Slider extends Data {
   }
   arrowsShow = () => {
     if (this.counter === 0) {
+      this.arrows[0].style.opacity = 0.4;
+    } else if (this.counter === this.pictures.length - 1) {
+      this.arrows[1].style.opacity = 0.4;
+    } else {
+      this.arrows[0].style.opacity = 1;
+      this.arrows[1].style.opacity = 1;
     }
+    console.log(this.counter);
   };
 }
 
