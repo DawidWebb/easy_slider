@@ -29,7 +29,7 @@
 .img__arrow {
   position: absolute;
   font-size: 30px;
-  color: blue;
+  color: black;
   cursor: pointer;
 }
 .img__arrow:nth-child(2) {
