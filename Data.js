@@ -3,10 +3,10 @@ class Data {
     this.arrows = [...document.querySelectorAll(".img__arrow")];
     this.info = document.querySelector(".wrapper__info");
     this.pictures = [
-      { img: "/img/1.jpg" },
-      { img: "/img/2.jpg" },
-      { img: "/img/3.jpg" },
-      { img: "/img/4.jpg" },
+      { img: new URL("https://picsum.photos/200") },
+      { img: new URL("https://picsum.photos/300") },
+      { img: new URL("https://picsum.photos/100") },
+      { img: new URL("https://picsum.photos/400") },
     ];
     this.counter = 0;
   }
